@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Week4</title>
+</head>
+<body>
+    <script>
+        let Obj = {
+            korname : 웹프로그래밍,
+            engName : WebProgamming,
+            classCode : V024003,
+            nStudent : 0,
+            
+            register : function() {
+                this.nStudent += 1;
+            },
+            unregister : function() {
+                this.nStudent -= 1;
+            },
+            getStudentCount : function() {
+                return this.nStudent;
+            }
+        }
+    </script>
+    
+    <script>
+        document.write("<h2>1. 직접 객체 만들기</h2>");
+        document.write("교과목 이름 = " + Obj.korName);
+        document.write("<hr><h2>2. 리터럴 표기법</h2>");
+        document.write("<hr><h2>3. Prototype</h2>");
+        
+        
+        
+        
+        
+    </script>
+
+</body>
